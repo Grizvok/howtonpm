@@ -1,14 +1,22 @@
 {
   "name": "@grizvok/learnnpm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "how-to-npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "npm"
   ],
   "author": "grizvok",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+"repository" : { 
+	"type" : "git",
+   	"url" : "https://github.com/Grizvok/howtonpm.git"
+  }
+
 }
